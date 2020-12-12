@@ -1,0 +1,32 @@
+#Files and paths that should not be under version control
+
+#File globs:
+.DS_Store
+*.swp
+*.bak
+
+*.bin
+*.pyc
+
+*.img
+*.dmg
+*.ram
+*.c32
+
+*.zip
+*.tar
+*.tgz
+*.bz2
+*.rpm
+*.txz
+*.svg
+
+.ssh/*
+.ssl/
+
+authorized_keys
+*.pem
+*.cer
+secrets.*
+
+pxelinux.0
