@@ -1,6 +1,6 @@
 doh-intel
 ==========
-A file formatted for the `Zeek Intelligence Framework <https://docs.zeek.org/en/current/frameworks/intel.html>`_.
+A file formatted for the `Zeek Intelligence Framework <https://docs.zeek.org/en/current/frameworks/intel.html>`_
 providing indicators for servers known to offer DNS over HTTPS. 
 
 Downloading
