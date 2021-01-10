@@ -332,6 +332,12 @@ doh-ipv6.crypto.sx	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-server
 2606:4700:3036::681c:6a	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh-ipv6.crypto.sx	-	-
 dns.twnic.tw	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.twnic.tw	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+do.dnscrypt.uk	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
+do.dnscrypt.uk	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+165.232.32.95	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: do.dnscrypt.uk	-	-
+v.dnscrypt.uk	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
+v.dnscrypt.uk	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+104.238.186.192	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: v.dnscrypt.uk	-	-
 dns.aa.net.uk	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.aa.net.uk	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 217.169.20.23	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.aa.net.uk	-	-
