@@ -42,6 +42,10 @@ dot.quickline.ch	Intel::DOMAIN	doh.servers	https://as15600.net	T	DNS::IN_REQUEST
 dot.quickline.ch	Intel::DOMAIN	doh.servers	https://as15600.net	T	SSL::IN_SERVER_NAME	-	Only accessible to Quickline AG customers.	-	-
 dns.switch.ch	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.switch.ch	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns-1.wil.cloud	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+dns-1.wil.cloud	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns-2.wil.cloud	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+dns-2.wil.cloud	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.rubyfish.cn	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.rubyfish.cn	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ea-dns.rubyfish.cn	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
@@ -116,6 +120,8 @@ dns.containerpi.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/
 dns.containerpi.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 45.77.180.10	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.containerpi.com	-	-
 2001:19f0:7001:5554:5400:2ff:fe57:3077	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.containerpi.com	-	-
+imperator.dev1ce.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+imperator.dev1ce.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.dns-over-https.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.dns-over-https.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-doh.dnsforfamily.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
@@ -154,6 +160,12 @@ doh-01.spectrum.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/
 doh-01.spectrum.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh-02.spectrum.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh-02.spectrum.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+ns01.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+ns01.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
+ns02.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+ns02.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
+ns03.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+ns03.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.xfinity.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.xfinity.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 sg.yepdns.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
@@ -167,6 +179,10 @@ dnsforge.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over
 176.9.93.198	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dnsforge.de	-	-
 dns.dnshome.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.dnshome.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+www.jabber-germany.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	Also hosting web page for jabber-germany.de on 443	-	-
+www.jabber-germany.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also hosting web page for jabber-germany.de on 443	-	-
+www.morbitzer.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	Also web page with several services on 443	-	-
+www.morbitzer.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also web page with several services on 443	-	-
 dns.t53.de	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 dns.t53.de	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.telekom.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	DNS::IN_REQUEST	-	Currently no info on Deutsche Telekom website.	-	-
@@ -179,6 +195,10 @@ doh.bortzmeyer.fr	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers
 doh.bortzmeyer.fr	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 193.70.85.11	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.bortzmeyer.fr	-	-
 2001:41d0:302:2200::180	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.bortzmeyer.fr	-	-
+ns1.iriseden.fr	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+ns1.iriseden.fr	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
+ns2.iriseden.fr	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+ns2.iriseden.fr	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 jcdns.fun	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 jcdns.fun	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.google	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
@@ -222,6 +242,10 @@ dns.aaflalo.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-o
 dns-nyc.aaflalo.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns-nyc.aaflalo.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 168.235.81.167	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns-nyc.aaflalo.me	-	-
+doh.boothlabs.me	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+doh.boothlabs.me	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.hack13.me	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+doh.hack13.me	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 ibksturm.synology.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 ibksturm.synology.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.therifleman.name	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
@@ -306,10 +330,10 @@ adfree.usableprivacy.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-
 149.154.153.153	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: adfree.usableprivacy.net	-	-
 adblock.mydns.network	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 adblock.mydns.network	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-chewbacca.meganerd.nl	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
-chewbacca.meganerd.nl	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
-136.244.97.114	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: chewbacca.meganerd.nl	-	-
-2001:19f0:5001:cbb:5400:3ff:fe07:f70d	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: chewbacca.meganerd.nl	-	-
+chewbacca.meganerd.nl	Intel::DOMAIN	doh.servers	https://meganerd.nl/encrypted-dns-server	T	DNS::IN_REQUEST	-	-	-	-
+chewbacca.meganerd.nl	Intel::DOMAIN	doh.servers	https://meganerd.nl/encrypted-dns-server	T	SSL::IN_SERVER_NAME	-	-	-	-
+136.244.97.114	Intel::ADDR	doh.servers	https://meganerd.nl/encrypted-dns-server	T	Conn::IN_RESP	-	IP for DoH server: chewbacca.meganerd.nl	-	-
+2001:19f0:5001:cbb:5400:3ff:fe07:f70d	Intel::ADDR	doh.servers	https://meganerd.nl/encrypted-dns-server	T	Conn::IN_RESP	-	IP for DoH server: chewbacca.meganerd.nl	-	-
 anydoh.sidnlabs.nl	Intel::DOMAIN	doh.servers	https://doh.sidnlabs.nl/about	T	DNS::IN_REQUEST	-	-	-	-
 anydoh.sidnlabs.nl	Intel::DOMAIN	doh.servers	https://doh.sidnlabs.nl/about	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.sidnlabs.nl	Intel::DOMAIN	doh.servers	https://doh.sidnlabs.nl/about	T	DNS::IN_REQUEST	-	-	-	-
@@ -367,6 +391,8 @@ dns.aa.net.uk	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-ov
 dns.brahma.world	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	DNS::IN_REQUEST	-		-	-
 dns.brahma.world	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 94.237.80.211	Intel::ADDR	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	Conn::IN_RESP	-	IP for DoH server: dns.brahma.world	-	-
+dnsoverhttps.ranacky.xyz	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
+dnsoverhttps.ranacky.xyz	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.wugui.zone	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.wugui.zone	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-asia.wugui.zone	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
