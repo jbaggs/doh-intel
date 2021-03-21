@@ -9,6 +9,6 @@ Download directly with the applicable command for your OS.
 
 ``wget https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel``
 
-``curl https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel -O doh.intel``
+``curl https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel -o doh.intel``
 
 ``fetch https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel``
