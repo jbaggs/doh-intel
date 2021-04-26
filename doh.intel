@@ -248,6 +248,9 @@ asia.dnscepat.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jba
 asia.dnscepat.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Certificate expired 2021-03-25.	-	-
 doh.doh.my.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.doh.my.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+please.dontsteal.my.id	Intel::DOMAIN	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	DNS::IN_REQUEST	-		-	-
+please.dontsteal.my.id	Intel::DOMAIN	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	SSL::IN_SERVER_NAME	-		-	-
+139.177.184.65	Intel::ADDR	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	Conn::IN_RESP	-	IP for DoH server: please.dontsteal.my.id	-	-
 doh.this.web.id	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 doh.this.web.id	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 116.0.2.86	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.this.web.id	-	-
