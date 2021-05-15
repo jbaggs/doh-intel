@@ -78,6 +78,8 @@ doh.arekjatim.com	Intel::DOMAIN	doh.servers	 https://arekjatim.com	T	SSL::IN_SER
 2001:470:35:100::2	Intel::ADDR	doh.servers	 https://arekjatim.com	T	Conn::IN_RESP	-	IP for DoH server: doh.arekjatim.com	-	-
 doh-ch.blahdns.com	Intel::DOMAIN	doh.servers	https://blahdns.com	T	DNS::IN_REQUEST	-	-	-	-
 doh-ch.blahdns.com	Intel::DOMAIN	doh.servers	https://blahdns.com	T	SSL::IN_SERVER_NAME	-	-	-	-
+45.91.92.121	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh-ch.blahdns.com	-	-
+2a0e:dc0:6:23::2	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh-ch.blahdns.com	-	-
 doh-de.blahdns.com	Intel::DOMAIN	doh.servers	https://blahdns.com	T	DNS::IN_REQUEST	-	-	-	-
 doh-de.blahdns.com	Intel::DOMAIN	doh.servers	https://blahdns.com	T	SSL::IN_SERVER_NAME	-	-	-	-
 78.46.244.143	Intel::ADDR	doh.servers	https://blahdns.com	T	Conn::IN_RESP	-	IP for DoH server: doh-de.blahdns.com	-	-
@@ -245,8 +247,8 @@ doh.doh.my.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-ov
 please.dontsteal.my.id	Intel::DOMAIN	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	DNS::IN_REQUEST	-		-	-
 please.dontsteal.my.id	Intel::DOMAIN	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	SSL::IN_SERVER_NAME	-		-	-
 139.177.184.65	Intel::ADDR	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	Conn::IN_RESP	-	IP for DoH server: please.dontsteal.my.id	-	-
-doh.this.web.id	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
-doh.this.web.id	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.this.web.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
+doh.this.web.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 116.0.2.86	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.this.web.id	-	-
 doh.iucc.ac.il	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	DNS::IN_REQUEST	-		-	-
 doh.iucc.ac.il	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
