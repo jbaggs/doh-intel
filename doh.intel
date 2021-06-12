@@ -335,6 +335,8 @@ doh.appliedprivacy.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-se
 doh.appliedprivacy.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 dohtrial.att.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 dohtrial.att.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+dos.bytetel.net	Intel::DOMAIN	doh.servers	https://dos.bytetel.net	T	DNS::IN_REQUEST	-		-	-
+dos.bytetel.net	Intel::DOMAIN	doh.servers	https://dos.bytetel.net	T	SSL::IN_SERVER_NAME	-		-	-
 doh.caramelfox.net	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
 doh.caramelfox.net	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 ibuki.cgnat.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
@@ -362,7 +364,6 @@ yarp.lefolgoc.net	Intel::DOMAIN	doh.servers	https://yarp.lefolgoc.net	T	SSL::IN_
 2001:41d0:8:9a14::1	Intel::ADDR	doh.servers	https://yarp.lefolgoc.net	T	Conn::IN_RESP	-	IP for DoH server: yarp.lefolgoc.net	-	-
 dns.moulticast.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 dns.moulticast.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-2001:678:d08:ff::53	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.moulticast.net	-	-
 doh.mullvad.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.mullvad.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adblock.doh.mullvad.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
@@ -415,7 +416,6 @@ doh.cleanbrowsing.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wik
 dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 103.232.207.3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.emeraldonion.org	-	-
-2620:18c:2::3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.emeraldonion.org	-	-
 doh.linuxsec.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 doh.linuxsec.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 103.85.15.60	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.linuxsec.org	-	-
