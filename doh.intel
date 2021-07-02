@@ -415,9 +415,9 @@ dns.blokada.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-
 dns.blokada.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.cleanbrowsing.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.cleanbrowsing.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
-dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
-103.232.207.3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.emeraldonion.org	-	-
+dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	DNS::IN_REQUEST	-		-	-
+dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
+103.232.207.3	Intel::ADDR	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	Conn::IN_RESP	-	IP for DoH server: dns.emeraldonion.org	-	-
 doh.linuxsec.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
 doh.linuxsec.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 103.85.15.60	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.linuxsec.org	-	-
@@ -458,6 +458,10 @@ dns.anonymous.pw	Intel::DOMAIN	doh.servers	https://anonymous.pw	T	SSL::IN_SERVER
 216.52.109.55	Intel::ADDR	doh.servers	https://anonymous.pw	T	Conn::IN_RESP	-	IP for DoH server: dns.anonymous.pw	-	-
 doh.dns.sb	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.dns.sb	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.sb	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
+doh.sb	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+185.222.222.222	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
+2a09::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
 dns.cloudtrust.solutions	Intel::DOMAIN	doh.servers	https://cloudtrust.solutions/dns/#doh	T	DNS::IN_REQUEST	-		-	-
 dns.cloudtrust.solutions	Intel::DOMAIN	doh.servers	https://cloudtrust.solutions/dns/#doh	T	SSL::IN_SERVER_NAME	-		-	-
 doh.crypto.sx	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
