@@ -185,8 +185,10 @@ ns02.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.or
 ns02.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns03.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	DNS::IN_REQUEST	-	-	-	-
 ns03.dns.tin-fan.com	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
-wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
-wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
+dns.wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns-weblock.wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
+dns-weblock.wevpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.xfinity.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.xfinity.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 sg.yepdns.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
@@ -474,10 +476,43 @@ dns.anonymous.pw	Intel::DOMAIN	doh.servers	https://anonymous.pw	T	SSL::IN_SERVER
 216.52.109.55	Intel::ADDR	doh.servers	https://anonymous.pw	T	Conn::IN_RESP	-	IP for DoH server: dns.anonymous.pw	-	-
 doh.dns.sb	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.dns.sb	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.sb	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	DNS::IN_REQUEST	-	-	-	-
-doh.sb	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
-185.222.222.222	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
+doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+45.11.45.11	Intel::ADDR	doh.servers	https://dns.sb/doh	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
+185.222.222.222	Intel::ADDR	doh.servers	https://dns.sb/doh	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
 2a09::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
+au-syd.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+au-syd.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+ca-yyc.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+ca-yyc.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+de-dus.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+de-dus.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+de-fra.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+de-fra.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+ee-tll.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+ee-tll.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+hk-hkg.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+hk-hkg.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+in-blr.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+in-blr.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+jp-kix.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+jp-kix.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+jp-nrt.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+jp-nrt.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+kr-sel.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+kr-sel.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+nl-ams.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+nl-ams.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+nl-ams2.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+nl-ams2.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+ru-mow.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+ru-mow.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+sg-sin.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+sg-sin.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+uk-lon.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+uk-lon.doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
+us-chi-doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	DNS::IN_REQUEST	-	-	-	-
+us-chi-doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.cloudtrust.solutions	Intel::DOMAIN	doh.servers	https://cloudtrust.solutions/dns/#doh	T	DNS::IN_REQUEST	-		-	-
 dns.cloudtrust.solutions	Intel::DOMAIN	doh.servers	https://cloudtrust.solutions/dns/#doh	T	SSL::IN_SERVER_NAME	-		-	-
 doh.crypto.sx	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
