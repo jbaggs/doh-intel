@@ -359,6 +359,8 @@ dns.dnsoverhttps.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 dns.dnsoverhttps.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 rdns.faelix.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 rdns.faelix.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+185.134.196.54	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: rdns.faelix.net	-	-
+2a01:9e01::54	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: rdns.faelix.net	-	-
 doh.ffmuc.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	DNS::IN_REQUEST	-	-	-	-
 doh.ffmuc.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 5.1.66.255	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.ffmuc.net	-	-
