@@ -93,6 +93,15 @@ dns-doh-no-safe-search.dnsforfamily.com	Intel::DOMAIN	doh.servers	https://dnscry
 95.217.213.94	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns-doh-no-safe-search.dnsforfamily.com	-	-
 doh.dnslify.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-		-	-
 185.235.81.1	Intel::ADDR	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	Conn::IN_RESP	-	IP for DoH server: doh.dnslify.com	-	-
+doh.asia.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+207.148.120.244	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.asia.dnswarden.com	-	-
+2001:19f0:4400:4de2:5400:3ff:fea9:d418	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.asia.dnswarden.com	-	-
+doh.eu.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+45.76.88.20	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.eu.dnswarden.com	-	-
+2001:19f0:6c01:2b17:5400:3ff:fea9:d42f	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.eu.dnswarden.com	-	-
+doh.us.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+144.202.69.149	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.us.dnswarden.com	-	-
+2001:19f0:6401:d6e:5400:3ff:fea9:d45e	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.us.dnswarden.com	-	-
 easyhandshake.com	Intel::DOMAIN	doh.servers	https://easyhandshake.com	T	SSL::IN_SERVER_NAME	-		-	-
 165.22.151.242	Intel::ADDR	doh.servers	https://easyhandshake.com	T	Conn::IN_RESP	-	IP for DoH server: easyhandshake.com	-	-
 resolver.noaddns.com	Intel::DOMAIN	doh.servers	https://noaddns.com	T	SSL::IN_SERVER_NAME	-		-	-
