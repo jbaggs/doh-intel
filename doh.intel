@@ -138,6 +138,7 @@ dns.dnshome.de	Intel::DOMAIN	doh.servers	https://dns.dnshome.de	T	SSL::IN_SERVER
 185.233.107.4	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
 2a03:4000:24:361::6e73:32	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
 2a03:4000:24:688::6e73:31	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
+www.jabber-germany.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also hosting web page for jabber-germany.de on 443	-	-
 masters-of-cloud.de	Intel::DOMAIN	doh.servers	https://masters-of-cloud.de	T	SSL::IN_SERVER_NAME	-		-	-
 www.masters-of-cloud.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 www.morbitzer.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also web page with several services on 443	-	-
@@ -326,6 +327,7 @@ doh.xcom.pro	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/
 doh.pub	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.anonymous.pw	Intel::DOMAIN	doh.servers	https://anonymous.pw	T	SSL::IN_SERVER_NAME	-		-	-
 216.52.109.55	Intel::ADDR	doh.servers	https://anonymous.pw	T	Conn::IN_RESP	-	IP for DoH server: dns.anonymous.pw	-	-
+doh.elsorcier.ru	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.dns.sb	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.sb	Intel::DOMAIN	doh.servers	https://dns.sb/doh	T	SSL::IN_SERVER_NAME	-	-	-	-
 45.11.45.11	Intel::ADDR	doh.servers	https://dns.sb/doh	T	Conn::IN_RESP	-	IP for DoH server: doh.sb	-	-
