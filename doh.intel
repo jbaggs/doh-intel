@@ -296,7 +296,8 @@ doh.us1.segurodns.net	Intel::DOMAIN	doh.servers	https://segurodns.net	T	SSL::IN_
 2604:9cc0:1:b::211	Intel::ADDR	doh.servers	https://segurodns.net	T	Conn::IN_RESP	-	IP for DoH server: doh.us1.segurodns.net	-	-
 ans2.tdnszone.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 adfree.usableprivacy.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.edgy.network	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+78.47.163.141	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: adfree.usableprivacy.net	-	-
+2a01:4f8:1c0c:832d::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: adfree.usableprivacy.net	-	-
 adblock.mydns.network	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 freedom.mydns.network	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ipoac.nl	Intel::DOMAIN	doh.servers	https://ipoac.nl	T	SSL::IN_SERVER_NAME	-		-	-
