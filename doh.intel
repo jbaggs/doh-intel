@@ -41,7 +41,6 @@ blitz.ahadns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS
 dns.alidns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 223.5.5.5	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.alidns.com	-	-
 dns.alternate-dns.com	Intel::DOMAIN	doh.servers	https://alternate-dns.com	T	SSL::IN_SERVER_NAME	-		-	-
-dns.arapurayil.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.arekjatim.com	Intel::DOMAIN	doh.servers	 https://arekjatim.com	T	SSL::IN_SERVER_NAME	-		-	-
 103.82.243.61	Intel::ADDR	doh.servers	 https://arekjatim.com	T	Conn::IN_RESP	-	IP for DoH server: doh.arekjatim.com	-	-
 2001:470:35:100::2	Intel::ADDR	doh.servers	 https://arekjatim.com	T	Conn::IN_RESP	-	IP for DoH server: doh.arekjatim.com	-	-
@@ -144,7 +143,7 @@ dns.dnshome.de	Intel::DOMAIN	doh.servers	https://dns.dnshome.de	T	SSL::IN_SERVER
 2a03:4000:24:361::6e73:32	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
 2a03:4000:24:688::6e73:31	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
 jabber-germany.de	Intel::DOMAIN	doh.servers	https://www.jabber-germany.de	T	SSL::IN_SERVER_NAME	-	Also hosts XMPP and multiple other services.	-	-
-www.jabber-germany.de	Intel::DOMAIN	doh.servers	https://www.jabber-germany.de	T	SSL::IN_SERVER_NAME	-	Also hosts XMPP and multiple other services.	-	-
+www.jabber-germany.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also hosting web page for jabber-germany.de on 443	-	-
 masters-of-cloud.de	Intel::DOMAIN	doh.servers	https://masters-of-cloud.de	T	SSL::IN_SERVER_NAME	-		-	-
 www.masters-of-cloud.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 www.morbitzer.de	Intel::DOMAIN	doh.servers	https://servers.opennicproject.org	T	SSL::IN_SERVER_NAME	-	Also web page with several services on 443	-	-
@@ -168,7 +167,6 @@ doh.libredns.gr	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-
 dns.gi.co.id	Intel::DOMAIN	doh.servers	https://dns.gi.co.id	T	SSL::IN_SERVER_NAME	-		-	-
 please.dontsteal.my.id	Intel::DOMAIN	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	SSL::IN_SERVER_NAME	-		-	-
 139.177.184.65	Intel::ADDR	doh.servers	https://github.com/dikotiledon/dontsteal.my.id	T	Conn::IN_RESP	-	IP for DoH server: please.dontsteal.my.id	-	-
-doh.this.web.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.iucc.ac.il	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 doh.micronets.in	Intel::DOMAIN	doh.servers	https://doh.micronets.in	T	SSL::IN_SERVER_NAME	-		-	-
 bld.sys-adm.in	Intel::DOMAIN	doh.servers	https://bld.sys-adm.in	T	SSL::IN_SERVER_NAME	-		-	-
@@ -324,7 +322,9 @@ dns.emeraldonion.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 103.232.207.3	Intel::ADDR	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	Conn::IN_RESP	-	IP for DoH server: dns.emeraldonion.org	-	-
 doh.linuxsec.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 103.85.15.60	Intel::ADDR	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	Conn::IN_RESP	-	IP for DoH server: doh.linuxsec.org	-	-
-doh.powerdns.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+puredns.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+146.190.6.13	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: puredns.org	-	-
+2400:6180:0:d0::1111:c001	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: puredns.org	-	-
 rumpelsepp.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-		-	-
 116.203.179.248	Intel::ADDR	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	Conn::IN_RESP	-	IP for DoH server: rumpelsepp.org	-	-
 fi.doh.dns.snopyta.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-		-	-
