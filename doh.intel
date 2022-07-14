@@ -103,9 +103,15 @@ dns-doh-no-safe-search.dnsforfamily.com	Intel::DOMAIN	doh.servers	https://dnscry
 167.235.236.107	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns-doh-no-safe-search.dnsforfamily.com	-	-
 doh.dnslify.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-		-	-
 185.235.81.1	Intel::ADDR	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	Conn::IN_RESP	-	IP for DoH server: doh.dnslify.com	-	-
-doh.asia.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.eu.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.us.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.dnswarden.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+fr1.dnswarden.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+141.95.160.38	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: fr1.dnswarden.com	-	-
+ind1.dnswarden.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+165.232.186.95	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: ind1.dnswarden.com	-	-
+sg1.dnswarden.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+15.235.141.208	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: sg1.dnswarden.com	-	-
+us1.dnswarden.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+149.28.244.131	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: us1.dnswarden.com	-	-
 easyhandshake.com	Intel::DOMAIN	doh.servers	https://easyhandshake.com	T	SSL::IN_SERVER_NAME	-		-	-
 165.22.151.242	Intel::ADDR	doh.servers	https://easyhandshake.com	T	Conn::IN_RESP	-	IP for DoH server: easyhandshake.com	-	-
 resolver.noaddns.com	Intel::DOMAIN	doh.servers	https://noaddns.com	T	SSL::IN_SERVER_NAME	-		-	-
@@ -203,8 +209,7 @@ dns-nyc.aaflalo.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/D
 ibksturm.synology.me	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.therifleman.name	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 172.104.206.174	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.therifleman.name	-	-
-doh.au.ahadns.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.chi.ahadns.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.chi.ahadns.net	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 193.29.62.196	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.chi.ahadns.net	-	-
 doh.es.ahadns.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.in.ahadns.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
