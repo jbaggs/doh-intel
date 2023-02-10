@@ -1,4 +1,6 @@
 #fields	indicator	indicator_type	meta.source	meta.url	meta.do_notice	meta.if_in	meta.whitelist	meta.desc	meta.cif_severity	meta.cif_impact
-freedns.controld.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-onzero.dev	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.nextdns.io	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns1.dentdns.ca	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+freedns.controld.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+adg.landoranium.de	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+onzero.dev	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.nextdns.io	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
