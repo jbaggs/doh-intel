@@ -19,6 +19,7 @@ If you are using `extend-if-in <https://github.com/jbaggs/extend-if-in>`_, you m
 					[Intel::WILDCARD_DOMAIN]=set(DNS::IN_REQUEST)),
 	};
 
+**NOTE: Entries have been removed from doh.intel that partially duplicated coverage of doh-wildcard.intel.**
 
 Downloading
 -----------
