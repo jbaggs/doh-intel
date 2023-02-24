@@ -23,10 +23,8 @@ If you are using `extend-if-in <https://github.com/jbaggs/extend-if-in>`_, you m
 
 Downloading
 -----------
-Download directly with the applicable command for your OS.
+Intel files may be downloaded directly from the URLs:
 
-``wget https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel``
+``https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel``
 
-``curl https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel -o doh.intel``
-
-``fetch https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel``
+``https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel``
