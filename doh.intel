@@ -1,4 +1,12 @@
 #fields	indicator	indicator_type	meta.source	meta.url	meta.do_notice	meta.if_in	meta.whitelist	meta.desc	meta.cif_severity	meta.cif_impact
+1.0.0.1	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.0.0.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.0.0.1	-	-
+1.1.1.1	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.1.1.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.1.1.1	-	-
+162.159.36.1	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+162.159.36.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 162.159.36.1	-	-
+162.159.46.1	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+162.159.46.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 162.159.46.1	-	-
 77.88.8.1	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 77.88.8.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.1	-	-
 2a02:6b8::feed:ff	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.1	-	-
@@ -30,10 +38,18 @@
 94.140.15.16	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 94.140.15.16	-	-
 113.240.88.172	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 113.240.88.172	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 113.240.88.172	-	-
+1.0.0.2	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.0.0.2	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.0.0.2	-	-
+1.1.1.2	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.1.1.2	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.1.1.2	-	-
 77.88.8.2	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 77.88.8.2	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.2	-	-
 2a02:6b8::feed:bad	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.2	-	-
 2a02:6b8:0:1::feed:bad	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.2	-	-
+2001:4860:4860::64	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2001:4860:4860::6464	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2001:4860:4860::8844	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2001:4860:4860::8888	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 2001:620:0:ff::2	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 2001:620:0:ff::3	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 39.103.26.204	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -48,8 +64,22 @@
 130.59.31.248	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 130.59.31.248	-	-
 130.59.31.251	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 130.59.31.251	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 130.59.31.251	-	-
+2606:4700:4700::1001	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::1002	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::1003	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::1111	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::1112	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::1113	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::64	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+2606:4700:4700::6400	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.0.0.3	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.0.0.3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.0.0.3	-	-
+1.1.1.3	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+1.1.1.3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.1.1.3	-	-
 1.71.20.37	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 1.71.20.37	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1.71.20.37	-	-
+8.8.4.4	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+8.8.4.4	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 8.8.4.4	-	-
 120.55.203.44	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 120.55.203.44	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 120.55.203.44	-	-
 123.151.107.5	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -64,6 +94,8 @@
 223.6.6.6	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 223.6.6.6	-	-
 47.108.0.63	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 47.108.0.63	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 47.108.0.63	-	-
+8.8.8.8	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+8.8.8.8	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 8.8.8.8	-	-
 77.88.8.8	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 77.88.8.8	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 77.88.8.8	-	-
 77.88.8.88	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -145,6 +177,7 @@ adguard.americasnet.com.br	Intel::DOMAIN	doh.servers	https://raw.githubuserconte
 kdgnkjho4od8w40.americasnet.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 destakmateriais.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.epace.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+adguard.frutuozo.com.br	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 blackhole.gugainfo.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.joaofidelix.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 arrakis.korolyzer.com.br	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -154,7 +187,6 @@ dns.mariasantana.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.
 dns.oceanprint.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns02.oceanprint.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 vps51564.publiccloud.com.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.lfac.net.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-br.leonardo.tec.br	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.buzz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.wwwdjl.buzz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -166,7 +198,6 @@ protected.canadianshield.cira.ca	Intel::DOMAIN	doh.servers	https://github.com/cu
 dns1.dnscrypt.ca	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 185.111.188.46	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns1.dnscrypt.ca	-	-
 dns.edgeworkssystems.ca	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.nukys.ca	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 router.sapib.ca	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 dns.tapawan.ca	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.tbnk.ca	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -269,13 +300,12 @@ tls.vietguards.cloud	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 vpn.vosjes.cloud	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-1.wil.cloud	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-2.wil.cloud	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.zkz.cloud	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dot-dns.zmy.cloud	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 addns.clubbase.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.fsociety.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 blade.lixd.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (6443)	-	-
 meowless.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
-ps1.modr.club	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+ps1.modr.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 clearweb.woodbridge.club	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.23-4.cn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.baishiyuan.cn	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -331,7 +361,6 @@ blitz.ahadns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS
 ahcek.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.ahmgam.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns.airyobi.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-akr177.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 albertocognetti.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.alidns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.almanasports.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
@@ -406,7 +435,6 @@ agh.broaddy.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbag
 www.agh.broaddy.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.2.bsh4.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.bt.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	BT experimental DoH resolver. Currently open. Likely to go private in the future.	-	-
-bunch-o-nerds.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.c-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 unifi.carioka.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (7443)	-	-
 caycewebsolutions.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -416,6 +444,7 @@ adguard.chaudharyarnav.com	Intel::DOMAIN	doh.servers	https://raw.githubuserconte
 dns.chillstice.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adhome.chinghuat.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 chenrouter.chironys.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (3001)	-	-
+dns.chriswservers.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 oraclejp2.chungyu.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.cippapp.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.citrahost.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -423,24 +452,23 @@ doh.cloud-sekeng.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 ys.cloud-sekeng.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.cloudflare.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
 1.0.0.1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.cloudflare.com	-	-
+104.16.132.229	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.cloudflare.com	-	-
+104.16.133.229	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.cloudflare.com	-	-
+2606:4700::6810:84e5	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.cloudflare.com	-	-
+2606:4700::6810:85e5	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.cloudflare.com	-	-
 cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-1dot1dot1dot1.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
-2606:4700:4700::1001	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1dot1dot1dot1.cloudflare-dns.com	-	-
-2606:4700:4700::1111	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: 1dot1dot1dot1.cloudflare-dns.com	-	-
+104.16.248.249	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cloudflare-dns.com	-	-
+104.16.249.249	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cloudflare-dns.com	-	-
+2606:4700::6810:f8f9	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cloudflare-dns.com	-	-
+2606:4700::6810:f9f9	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cloudflare-dns.com	-	-
 azure.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 chrome.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns64.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 family.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-1.0.0.3	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: family.cloudflare-dns.com	-	-
-2606:4700:4700::1003	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: family.cloudflare-dns.com	-	-
-2606:4700:4700::1113	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: family.cloudflare-dns.com	-	-
 mozilla.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 odoh.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 opera.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 security.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-1.0.0.2	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: security.cloudflare-dns.com	-	-
-2606:4700:4700::1002	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: security.cloudflare-dns.com	-	-
-2606:4700:4700::1112	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: security.cloudflare-dns.com	-	-
 tor.cloudflare-dns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.cloudseriousshit.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-fr-psv1.cloudsides.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -472,6 +500,8 @@ dns.digitaladapt.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 dns.dionperera.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 disbish.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 mia.dns4sec.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.dnsfilter.com	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+103.247.36.150	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.dnsfilter.com	-	-
 doh-lb-atl.dnsflex.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh-lb-br.dnsflex.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh-lb-ca-tor.dnsflex.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -598,6 +628,7 @@ dns.kejinno.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbag
 dns.keke125.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.keskinnetwork.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.keskonet.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.keviland.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 khsan.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.khsan.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 home.kinopu.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -661,7 +692,7 @@ dns.nhtsky.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-o
 adguard.niko-sem.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dnx.niko-sem.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 resolver.noaddns.com	Intel::DOMAIN	doh.servers	https://noaddns.com	T	SSL::IN_SERVER_NAME	-	-	-	-
-pi1.node15.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+pi1.node15.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-cybersec.nordthreatprotection.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-malwaresec.nordthreatprotection.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns1.nordvpn.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -671,9 +702,10 @@ ns3.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-i
 nsown.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 nudnud.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.nullrecon.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.numerus.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.numerus.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.odinpl.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 secure.odomail.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+adguard.odysseusnetwork.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 nsa.onnonetworks.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 nsb.onnonetworks.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4444)	-	-
 dns.opendns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -688,8 +720,7 @@ ortudns.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/d
 dns.oryxlabs.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.osmenoga.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.p55k.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.pacificmonster.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-doh.gcp.pathofgrace.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.pacificmonster.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.paxavemedia.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.periactes.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 dns0.permafrostmiami.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -718,7 +749,6 @@ dns2.prima-solusindo.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent
 privatebard.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.pumpkinvrar.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 r1bnc.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
-dns.rachaelandjan.com	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 dns.radityaharya.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.ramansarda.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.relskor.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -764,7 +794,7 @@ sunnygyl.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-ove
 pure.sunnygyl.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 surfbelow.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.surfbelow.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.technostriker.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.technostriker.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 family.dns.teknoholistik.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dnsrionegro.telnet-isp.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 thefamilypuls.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
@@ -803,6 +833,7 @@ zalizman.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/
 dns.zeinima.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 res.zijji.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 xyz2.zmjflow.com	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.ztbro.com	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.unitech.company	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns1.luan.contact	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 noad.kipp.cool	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -844,7 +875,7 @@ c-rm.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/j
 fritz-er.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fritz-hbh.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 m-asm.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-m-cm.circumitor.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+m-cm.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 m-rm.circumitor.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.codarbyte.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.hub.com.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -866,7 +897,7 @@ dns.dnshome.de	Intel::DOMAIN	doh.servers	https://dns.dnshome.de	T	SSL::IN_SERVER
 2a03:4000:24:688::6e73:31	Intel::ADDR	doh.servers	https://dns.dnshome.de	T	Conn::IN_RESP	-	IP for DoH server: dns.dnshome.de	-	-
 dnsmurray.de	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dr-adguard.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-server01.dr-adguard.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+server01.dr-adguard.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dukun.de	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 atlantic.dyn1.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.dyn1.de	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1056,7 +1087,6 @@ dns.orencak.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbagg
 dns.rhscz.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns1.rhscz.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns2.rhscz.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-hk.rslvr.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.sa-sa.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doq.sa-sa.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.safko.eu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
@@ -1072,6 +1102,7 @@ blocker.zebrzydowa110.eu	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/
 dns.expert	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.connect.fail	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.sheepdogs.faith	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
+dns.christerwaren.fi	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 lastentarvike.fi	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.musikantit.fi	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns.trcnet.fi	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1155,8 +1186,6 @@ ads.salzts.gay	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbagg
 doh.futa.gg	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 8888.google	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.google	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-8.8.8.8	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.google	-	-
-2001:4860:4860::8888	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: dns.google	-	-
 dns64.dns.google	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 nicsezcheckfbi.gov	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ychen.gq	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1171,7 +1200,6 @@ ns.lov.host	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/d
 dns.simba.house	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ivica-vulas.from.hr	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.0ooo.icu	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.c515.icu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.maybe.icu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 d2.shabi.icu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 d3.shabi.icu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1188,6 +1216,7 @@ dns.ezyss.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/
 dns.gnb09.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 lpse.minahasa.go.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 adguard.jakinet.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.kepegawaiandju.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 polisidns.4ch.my.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 antarlangit.my.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 d.apemlegit.my.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1218,7 +1247,7 @@ homelab2.terabit.net.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.
 dns.ningkelle.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 family.dns.ningkelle.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.runsel.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-filter.das.sch.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+filter.das.sch.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.syaifullah.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.engineer.web.id	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.jsd.web.id	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1329,7 +1358,7 @@ adguard.kiboko.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jb
 flat.loisy.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (3001)	-	-
 nas-fusion.loisy.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (3001)	-	-
 doh.luigi.nexific.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.npsolution.it	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.npsolution.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.servizimv.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 nas.stefanoperna.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8083), Cert chain issue.	-	-
 hyperspace.toxopeus.it	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1346,7 +1375,8 @@ nana-is.so-gorgeo.us.kg	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/w
 tetty-is.so-gorgeo.us.kg	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.sung-il.kim	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dhlifeus-micro1.dns.3456.kr	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.eliv.co.kr	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.eliv.co.kr	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.eliv.kr	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns.hjk.kr	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns1.hjk.kr	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns2.hjk.kr	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1359,7 +1389,6 @@ doh.li	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTP
 adguard.hofi.li	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.hva.li	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 tor.vasi.li	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.xcn.li	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.himarsman.life	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 dns.txq.life	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 solution.w10.life	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1376,12 +1405,13 @@ adg.qwqwe.link	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbagg
 adguard.ihatemy.live	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 nsin.live	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
 securitate.live	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-v2.xx3210766.live	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+v2.xx3210766.live	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 acomit.lk	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 www.acomit.lk	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 uk.arian.lol	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ralfs-dns.dsh.lol	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 beacon.fengli.love	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+doh.domreg.lt	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 o1.lt	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.ourvau.lt	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.redvau.lt	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1437,8 +1467,6 @@ ns.hjk.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh
 ns1.hjk.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns2.hjk.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 jpdns.hker.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.hocx.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-yory2cave.hopto.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.huas.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.johndave.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ad.johnwick.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1458,6 +1486,7 @@ doh.pyry.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/d
 at.pzhg.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 vpsus3.pzhg.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.redroot.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.reitmeier.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.rjls.me	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.root.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 f1.dns.s3cure.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1475,7 +1504,6 @@ woalongit.synology.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.co
 dns.tb4.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.timboeh.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns2.vinc.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.warma.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns02.wewa.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.xydustc.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 yujular.me	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1628,6 +1656,7 @@ newblader2k.dynv6.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.co
 dnscache.e-utp.net	Intel::DOMAIN	doh.servers	https://e-utp.net/recursive-dns/	T	SSL::IN_SERVER_NAME	-	IPv6 only	-	-
 2001:67c:21ec::53	Intel::ADDR	doh.servers	https://e-utp.net/recursive-dns/	T	Conn::IN_RESP	-	IP for DoH server: dnscache.e-utp.net	-	-
 2a0f:5707:ba00::53	Intel::ADDR	doh.servers	https://e-utp.net/recursive-dns/	T	Conn::IN_RESP	-	IP for DoH server: dnscache.e-utp.net	-	-
+adguard.easez.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.eddi.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
 doh.eddi.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 pdns.elecura.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1648,6 +1677,7 @@ doh.ffmuc.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-ov
 2001:678:e68:f000::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.ffmuc.net	-	-
 2001:678:ed0:f000::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: doh.ffmuc.net	-	-
 adguard.fija-web.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.flightspace.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns01.flm9.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ordns.he.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 74.82.42.42	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: ordns.he.net	-	-
@@ -1675,6 +1705,7 @@ layer1.jnraptor.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/
 pi4.jnraptor.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 vps1.jnraptor.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 vps2.jnraptor.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.benoit.jp.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard1.njy.jsanagustin.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.just-hosting.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.karfamily.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1743,7 +1774,7 @@ dk-cop-w-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.c
 fi-hel-w-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fi-hel-w-2.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fi-hel-w-f-2.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
-fi-hel-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+fi-hel-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fr-gra-w-f-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 fr-gra-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 fr-par-w-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1782,7 +1813,7 @@ ro-buc-w-2.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.c
 ro-buc-w-f-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ro-buc-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 ru-mos-w-2.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-ru-mos-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+ru-mos-w-p-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 se-sto-w-2.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 sg-w-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 sg-w-5.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1819,6 +1850,7 @@ us-sea-w-5.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.c
 us-sea-w-6.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 vn-hcm-w-1.nashkan.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.netrve.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.netvpn.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard-03.new-asgard.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adg5yvi.ngatngay.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4444)	-	-
 dns.nghialele.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1912,6 +1944,8 @@ resolv3.trash.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DN
 net.tt6.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 hub.udeste.net	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adfree.usableprivacy.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+78.47.163.141	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: adfree.usableprivacy.net	-	-
+2a01:4f8:1c0c:832d::	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: adfree.usableprivacy.net	-	-
 cc2.v8er.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 zuhause.webteufel.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 resov.wehao.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1919,7 +1953,7 @@ ag.wntrmute.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbag
 45-76-84-146.colo.xandodigital.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue	-	-
 family.dot.dns.yandex.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 safe.dot.dns.yandex.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-yeralin.net	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+yeralin.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.daemon.za.net	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.b33.network	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 na.ash.adguard.01.joshseveros.network	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -1987,6 +2021,7 @@ unicast.censurfridns.nu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.
 exns1.exalto.nu	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 no-ad.levcloud.cloudns.nz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 dns1.thylacine.co.nz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns2.thylacine.co.nz	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.dhemant.observer	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.bravoc.one	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.comss.one	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2047,6 +2082,9 @@ jujuba.cafuringa.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com
 console.carestyle.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 catdns.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.olivier-raspberrypi.changeip.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
+cleanbrowsing.org	Intel::DOMAIN	doh.servers	https://dnscrypt.info/public-servers	T	SSL::IN_SERVER_NAME	-	-	-	-
+185.228.168.10	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cleanbrowsing.org	-	-
+185.228.168.168	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: cleanbrowsing.org	-	-
 doh.cleanbrowsing.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.colorfreedom.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.demaks.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
@@ -2056,7 +2094,6 @@ dnscity.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/d
 admin.dotls.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns1.dotls.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adblock-larssonshus.duckdns.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-adghno80443.duckdns.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aezadns.duckdns.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 alpakalpha.duckdns.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 azagramac.duckdns.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2114,6 +2151,7 @@ jp.dns.bliod.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/
 clic.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (3001)	-	-
 dns.cloudvoid.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 resolver.dns.eban.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
+doh.excdn.eu.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.greenwood.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 sweethome.in.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fullaccesstointernet.jp.eu.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2146,7 +2184,6 @@ keithchunguat.hopto.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.
 mypihole.hopto.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 hkg.hytec.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 ur.hytec.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
-vh097-dns.itbbs.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 josephfamily.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 dns.jundev.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.kooman.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2210,6 +2247,7 @@ dns.w3ctag.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-o
 wikimedia-dns.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 185.71.138.138	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: wikimedia-dns.org	-	-
 2001:67c:930::1	Intel::ADDR	doh.servers	https://dnscrypt.info/public-servers	T	Conn::IN_RESP	-	IP for DoH server: wikimedia-dns.org	-	-
+dns.xiumu.org	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 akylah.zapto.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 ruffest.zapto.org	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.azoris.ovh	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2561,6 +2599,7 @@ dns.abppro.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs
 link.altapo.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 an81dns.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 angrysky.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+arcticstorm.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aridia.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 node3.b4el.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns1.blackrandcrf.ru	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2785,6 +2824,7 @@ isakula.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs
 jefe.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 addns.jpr.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 home.kompot.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+pygos.space	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 adg.rueiliu.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.vegann.space	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 minilla.store	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2864,6 +2904,7 @@ dns.phucbui.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbag
 home.phucbui.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 seedboxhome.phucbui.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 ad.pyio.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+serverhk.rannj.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 hk.ravi.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 dns.rootlab.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 sakuraknight2024.top	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
@@ -2903,6 +2944,7 @@ tls.jackyhou.idv.tw	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/
 adguard.shuting.idv.tw	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 qaz.tw	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.twnic.tw	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.xlion.tw	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 guard.yps.tw	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dot.zhuyuan.tw	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 host94.rheingold.com.ua	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
@@ -2971,7 +3013,7 @@ dns-privacy.puregeni.us	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/w
 adguard.ro0t.us	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (7071)	-	-
 adguard.senthil.us	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.timkevin.us	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-dns.56k.uy	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.56k.uy	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aerodrorne.vip	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.horcrux.vip	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.mtoo.vip	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -2987,8 +3029,6 @@ hoavan.io.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/
 adguard.xiaolingg.io.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 chungocoai.name.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.chungocoai.name.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-azure.quydang.name.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-hcm.quydang.name.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 tokyodns.songnguyen.name.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 tran.net.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.vietdns.vn	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -3034,7 +3074,6 @@ adhome.2011101.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/j
 dns.240527.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ad.257053.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4434)	-	-
 dns2.263030.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
-317252.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ad.344556.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
 dns.354688.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 xjpdns.354688.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
@@ -3096,13 +3135,11 @@ kaiwu.xyz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-H
 dns.kerekes.xyz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.kritsa0.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.lifeym.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
-transportasidarat.lkbin.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-family.transportasidarat.lkbin.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-unfiltered.transportasidarat.lkbin.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.milftech.xyz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 nickcan.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 irgrdns.nullapp.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.oasg.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+paskam.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.pmoebi.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ns.postoverall.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aws.razor1911.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -3110,8 +3147,10 @@ azure.razor1911.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/
 doh.rizalagustian.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.sainternet.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.servernation.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+ag.ssrahul96.xyz	Intel::DOMAIN	doh.servers	https://github.com/jbaggs/doh-intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adg.swh123.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (8443)	-	-
 adguard.twotigers.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.vaioswolke.xyz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.vinnyp.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 killads.vpms.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.x88x.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	Cert chain issue.	-	-
@@ -3120,7 +3159,6 @@ adguard.yuki2th.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/
 dns1.zettawize.xyz	Intel::DOMAIN	doh.servers	https://github.com/curl/curl/wiki/DNS-over-HTTPS	T	SSL::IN_SERVER_NAME	-	-	-	-
 www.dns1.zettawize.xyz	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adg.datamatter.co.za	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-www.adg.datamatter.co.za	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 pihole.datamatter.co.za	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 gn-z11.franscois.co.za	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.nerdytechgeeks.co.za	Intel::DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
