@@ -1,9 +1,9 @@
 #fields	indicator	indicator_type	meta.source	meta.url	meta.do_notice	meta.if_in	meta.whitelist	meta.desc	meta.cif_severity	meta.cif_impact
 nw.vrd.app	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-ugm.asia	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 idns.au	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 delgombe.be	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 uprize.dscloud.biz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
+ovpn.bond	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 diogocasteluber.com.br	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
 dns.korolyzer.com.br	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 doh.wellyngton.com.br	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -63,6 +63,7 @@ dns2.nzcow.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.
 olus-dns.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 xros.ooguy.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 pasegados.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+filter.posivenko.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ipb.shihaos.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.t7kruger.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.techromantica.com	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -198,6 +199,7 @@ adblock.benmeyer.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubuserco
 blocker-se.dekugon.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 espekdns.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 frosthost.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dns.geekrnd.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4433)	-	-
 dns.gendos.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.nzglgzn.ggff.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 kallemarc.ipv64.net	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
@@ -224,7 +226,6 @@ it4.one	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jba
 opendns.one	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.theres.one	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 resolve.vvpi.one	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
-denisguard.online	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns9457adguardhome.online	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 khair.online	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 kirkscloud.online	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -265,6 +266,7 @@ pozitiff4ik.ru	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.
 tg.pp.ru	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (444)	-	-
 server-dns.ru	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 ssdns.ru	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+ns.taigacollection.ru	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns.myspace.sbs	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns-duck.se	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aista.shop	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (4443)	-	-
@@ -292,6 +294,7 @@ dns.kafuuchino.uk	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubuserconte
 notinmy.us	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adrdns.win	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 agh24.win	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+funnymaker.win	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 adguard.masrahi.win	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 glaciald.fcyz.work	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 malgamerz.work	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
@@ -306,6 +309,7 @@ dns.5824613.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent
 966956.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	DoH on alternate port (3001)	-	-
 dns.d94.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 dns2.d94.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
+dangarion.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 aghome.eni-mega.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 cays.eyecay.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
 fra1.eyecay.xyz	Intel::WILDCARD_DOMAIN	doh.servers	https://raw.githubusercontent.com/jbaggs/doh-intel/master/doh-wildcard.intel	T	SSL::IN_SERVER_NAME	-	-	-	-
